@@ -5,7 +5,8 @@ Image is a very common information carrier, but the image may be affected by noi
 Common image restoration algorithms include median filtering based on spatial domain, wavelet denoising based on wavelet domain, nonlinear diffusion filtering based on partial differential equation, etc. In this experiment, we want to add noise to the image, and add noise to the image based on linear regression model denoising.
 
 MNIST is a handwritten digit data set. The training set contains 60,000 handwritten digits, and the test set contains 10,000 handwritten digits, with a total of 10 categories.
-    
+ 
+ 
 2. Procedure:
 2.1 Generate damaged images:
 a) The damaged image was obtained by adding different noise masks to the original image. 
@@ -16,6 +17,8 @@ b) the noise mask contains only {0,1} values. For the noise mask of the original
 2.3 Evaluation:
 The evaluation error is the sum of the 2-norm of all restored images and the original image, and the smaller the error, the better.
 
+
 3. Reference:
+
 OpenCV：https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html
 Numpy：https://www.numpy.org/
