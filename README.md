@@ -2,22 +2,8 @@
 1. Introduction:
 
 LeNet5 + MNIST is known as the "Hello world" of deep learning. This experiment mainly introduces the development and training of a LeNet5 model using MindSpore on MNIST handwritten digital data set, and verifies the model accuracy.
+
+MNIST is a handwritten digit data set. The training set contains 60,000 handwritten digits, and the test set contains 10,000 handwritten digits, with a total of 10 categories.
     
-2. Information about 26 kinds of garbage:
-
-{
-    '干垃圾': ['贝壳', '打火机', '旧镜子', '扫把', '陶瓷碗', '牙刷', '一次性筷子', '脏污衣服'],
-    '可回收物': ['报纸', '玻璃制品', '篮球', '塑料瓶', '硬纸板', '玻璃瓶', '金属制品', '帽子', '易拉罐', '纸张'],
-    '湿垃圾': ['菜叶', '橙皮', '蛋壳', '香蕉皮'],
-    '有害垃圾': ['电池', '药片胶囊', '荧光灯', '油漆桶']
-}
-
-['贝壳', '打火机', '旧镜子', '扫把', '陶瓷碗', '牙刷', '一次性筷子', '脏污衣服',
-'报纸', '玻璃制品', '篮球', '塑料瓶', '硬纸板', '玻璃瓶', '金属制品', '帽子', '易拉罐', '纸张',
-'菜叶', '橙皮', '蛋壳', '香蕉皮',
-'电池', '药片胶囊', '荧光灯', '油漆桶']
-
-['Seashell', 'Lighter', 'Old Mirror', 'Broom', 'Ceramic Bowl', 'Toothbrush', 'Disposable Chopsticks', 'Dirty Cloth',
-'Newspaper', 'Glassware', 'Basketball', 'Plastic Bottle', 'Cardboard', 'Glass Bottle', 'Metalware', 'Hats', 'Cans', 'Paper',
-'Vegetable Leaf', 'Orange Peel', 'Eggshell', 'Banana Peel',
-'Battery', 'Tablet capsules', 'Fluorescent lamp', 'Paint bucket']
+2. Script:
+![1632801620828_EFC45D31-28F2-4591-9AA6-B37CC97DF958](https://user-images.githubusercontent.com/91419621/135035324-69fa2913-c3e3-4e61-951c-509bf70d8732.png)
