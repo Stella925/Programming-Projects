@@ -11,7 +11,7 @@ MNIST is a handwritten digit data set. The training set contains 60,000 handwrit
 
 2.1 Generate damaged images:
 a) The damaged image was obtained by adding different noise masks to the original image. 
-b) the noise mask contains only {0,1} values. For the noise mask of the original image, each row can be generated with a noise ratio of 0.8/0.4/0.6, that is, the pixel value of 80/40/60% of each row of each channel of the noise mask is 0, and the pixel value of the others is 1.
+b) The noise mask contains only {0,1} values. For the noise mask of the original image, each row can be generated with a noise ratio of 0.8/0.4/0.6, that is, the pixel value of 80/40/60% of each row of each channel of the noise mask is 0, and the pixel value of the others is 1.
 
 2.2 Image Restoration with regional binary linear regression model
 
