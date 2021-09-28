@@ -1,8 +1,7 @@
-# Garbage Classification
-1. Script:
+# LeNet5 + MNIST
+1. Introduction:
 
-![1632801630825_38314469-B650-43d0-8CAF-9901FEF865AF](https://user-images.githubusercontent.com/91419621/135031644-f6bfc5ef-e25b-4265-81ec-adc7c8053c92.png)
-
+LeNet5 + MNIST is known as the "Hello world" of deep learning. This experiment mainly introduces the development and training of a LeNet5 model using MindSpore on MNIST handwritten digital data set, and verifies the model accuracy.
     
 2. Information about 26 kinds of garbage:
 
