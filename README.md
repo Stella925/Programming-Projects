@@ -1,21 +1,8 @@
 # Garbage Classification
 1. Script:
 
-├── main.ipynb # 入口Jupyter Notebook文件
-│
-├── src_mindspore
-│   ├── dataset.py
-│   ├── mobilenetv2.py
-│   └── mobilenetv2-200_1067_gpu_cpu.ckpt
-│
-├── results/mobilenetv2.mindir # 待生成的MindSpore0.5.0模型文件
-│
-├── train_main.py # 将 main.ipynb Notebook 训练模型代码转化为py文件
-│
-└── datasets/5fbdf571c06d3433df85ac65-momodel/garbage_26x100/ # 数据集
-    ├── train/
-    ├── val/
-    └── label.txt
+![1632801630825_38314469-B650-43d0-8CAF-9901FEF865AF](https://user-images.githubusercontent.com/91419621/135031644-f6bfc5ef-e25b-4265-81ec-adc7c8053c92.png)
+
     
 2. Information about 26 kinds of garbage:
 
