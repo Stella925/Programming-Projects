@@ -1,1 +1,1 @@
-# Programming-Projects
+# Garbage Classification
